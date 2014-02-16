@@ -177,6 +177,15 @@ Page {
                     }
                 }
             ]
+            
+            InvokeActionItem {
+    query {
+            mimeType: "mime/text"
+        invokeActionId: "bb.action.SHARE"
+                    invokeTargetId: "Facebook"
+        data : "Hi "+ dateName+" I just got matched to you with GitDating for BB10. It's great we went to PennApps, will you be my Hackentine?"
+    }
+}
         }
     }
 }
